@@ -1,1 +1,40 @@
-<p>section-sales works!</p>
+<div class="row section-container">
+  <div class="cards">
+    <div class="row card-deck">
+      <div class=" col-6 card-theme">
+        <div class="card-title card-header-theme">
+          <h5>Daily Orders</h5>
+        </div>
+        <div class="card-body card-body-theme">
+          <app-bar-chart></app-bar-chart>
+        </div>
+      </div>
+      <div class="col-3 card-theme">
+        <div class="card-title card-header-theme">
+          <h5>Orders by Customer</h5>
+        </div>
+        <div class="card-body card-body-theme">
+          <app-pie-chart></app-pie-chart>
+        </div>
+      </div>
+      <div class="col-3 shadow card-theme">
+        <div class="card-title card-header-theme">
+          <h5>Orders by State</h5>
+        </div>
+        <div class="card-body card-body-theme">
+          <app-pie-chart></app-pie-chart>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row-flex cards">
+    <div class="col-12 card shadow card-theme">
+      <div class="card-title card-header theme">
+        <h5>Monthly Sales by Product</h5>
+      </div>
+      <div class="card-body card-body-theme">
+        <app-line-chart></app-line-chart>
+      </div>
+    </div>
+  </div>
+</div>
