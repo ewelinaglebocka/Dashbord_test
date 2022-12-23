@@ -9,6 +9,7 @@ import { SectionSalesComponent } from './sections/section-sales/section-sales.co
 import { SectionOrdersComponent } from './sections/section-orders/section-orders.component';
 import { SectionHealthComponent } from './sections/section-health/section-health.component';
 import { appRoutes } from 'src/routes';
+import { NgChartsModule } from 'ng2-charts';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { appRoutes } from 'src/routes';
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(appRoutes)
+    RouterModule.forRoot(appRoutes),
+    NgChartsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
